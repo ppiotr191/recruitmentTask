@@ -23,7 +23,7 @@ final class Version20200119202726 extends AbstractMigration
         $data = [
                 'email' => 'admin@admin.pl',
                 'roles' => '["ROLE_ADMIN"]',
-                'password' => '$2y$13$2D74vOK7wq6d11PuYAxcOeLgBeUHjplHD.HpGnNVVVYabMfzL8Ama'
+                'password' => '$2y$13$u5blJJoP3DwBvDvS5uHmTu9pFZ8y9xfHNcd4EZtngJCdULre/Ou5S'
         ];
         $this->connection->insert('user', $data);
     }
