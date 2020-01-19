@@ -7,7 +7,6 @@ if (!Encore.isRuntimeEnvironmentConfigured()) {
 }
 
 Encore
-    .enableReactPreset()
     // directory where compiled assets will be stored
     .setOutputPath('public/build/')
     // public path used by the web server to access the output path
@@ -68,7 +67,7 @@ Encore
     //.autoProvidejQuery()
 
     // uncomment if you use API Platform Admin (composer req api-admin)
-    //.enableReactPreset()
+    .enableReactPreset()
     //.addEntry('admin', './assets/js/admin.js')
 ;
 
