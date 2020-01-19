@@ -3,12 +3,13 @@
 # Instalation
 ```
 git clone https://github.com/ppiotr191/recruitmentTask.git
+```
+add .env file based on .env.dist  
+```
 composer install
 yarn install
 ```
 # Database
-First, add .env file based on .env.dist  
-
 ```
  php bin/console doctrine:database:create
  php bin/console doctrine:migration:migrate
